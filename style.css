@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+body{
+    background-image:url(images/10000011.JPG);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+
+    font-family: "Noto Sans JP", sans-serif;
+}
+h1,h3{
+    color:#142434;
+}
+
+/*画像*/
+.gmailIcon{
+    width:18px;
+}
+.profImg{
+    width:170px;
+    box-shadow:5px 5px 0 0 rgba(115,145,156,1);
+    margin-top:10px;
+    margin-bottom:30px;
+}
+.githubIcon{
+    width:20px;
+}
+.instaIcon{
+    width:20px;
+}
+.sunosukiImgTop{
+    width:150px;
+}
+.sunosukiImgSession{
+    width:135px;
+}
+.bubbleImg{
+    width:150px;
+}
+.ytIcon{
+    width:60px;
+    display:inline-block;
+    margin-left:4px;
+}
+.ytIcon:hover,.instaIcon:hover,.githubIcon:hover{
+    opacity:0.5;
+}
+img{
+    width:100%;
+    object-fit:cover;
+}
+
+/*初期化*/
+ul{
+    list-style:none;
+    padding:0;
+}
+a{
+    color:#000;
+    text-decoration:none;
+}
+a:hover{
+    color:#7294a4;
+}
+
+.wrapper{
+    background-color:#fff;
+}
+.gmail{
+    font-size:14px;
+}
+
+/* .gmail::before{
+    content:"";
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background-image:url(images/gmailIcon.jpg);
+} */
+.menuHere{
+    border-bottom:#ccc solid 2px;
+}
+@media(max-width:960px) {
+    .resume,article p,article li{
+        font-size:12px;
+    }
+}
+article{
+    margin-bottom:40px;
+}
+.articleTitle{
+    border-bottom:#ccc 2px solid;
+}
+article li{
+    margin-bottom:3;
+}
+.question{
+    margin-bottom:5px;
+    margin-top:20px;
+}
+.contact{
+    margin-left:20px;
+}
+@media(min-width:960px){
+    .contact{
+        margin-left:70px;
+    }
+}
+.sunosukiImgCont{
+    margin-left:30px;
+    margin-bottom:50px;
+}
+@media(min-width:960px){
+    .profRight{
+        padding-right:65px;
+    }
+}
+.app{
+    margin-bottom:80px;
+}
+.bubbleImg{
+    margin-left:90px;
+    margin-bottom:30px;
+}
+.appLink{
+    margin-bottom:50px;
+}
+.bottom{
+    margin-bottom:20vh;
+}
+.app a,.small{
+    font-size:13px;
+}
+.app h3{
+    margin-top:20px;
+}

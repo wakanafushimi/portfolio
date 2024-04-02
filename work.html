@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伏見和香奈のポートフォリオ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5235b688ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="wrapper col-lg-10 mx-auto">
+
+                <div class="header pt-3">
+                    <div class="title row">
+                        <h1 class="col-lg-7 ms-2">伏見和香奈のポートフォリオ</h1>
+                        <div class="contact col-lg-4 mt-2">
+                            <div class="d-flex mb-2">
+                                <a href="https://github.com/wakanafushimi" target="_blank">
+                                    <div class="githubIcon me-2"><img src="images/github-mark.png"></div>
+                                </a>
+                                <a href="https://www.instagram.com/wakanafushimi" target="_blank">
+                                    <div class="instaIcon"><img src="images/insta.png"></div>
+                                </a>
+                            </div>
+                            <div class="d-flex">
+                                <div class="gmailIcon me-2">
+                                    <img src="images/gmailIcon.jpg">
+                                </div>
+                                <div class="gmail">
+                                    <p>gnos0tu.wakanafushimi@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <ul class="menu p-0 d-flex mb-5 mt-2">
+                        <li class="mx-2"><a href="index.html">プロフィール</a></li>
+                        <li class="mx-2 menuHere"><a href="work.html">プロジェクト</a></li>
+                    </ul>
+                </div>
+
+                <!-- <h2 class="pagetitleWork pagetitle">プロジェクト</h2> -->
+
+                <div class="row bottom">
+                    <div class="col-lg-11 mx-auto app">
+                        <h3>スノーボーダー交流アプリ　SUNOSUKI</h3>
+                        <a href="https://sunosuki.azurewebsites.net" target="_blank" class="d-block mb-1">ご利用はこちらから<i
+                                class="fa-solid fa-arrow-up-right-from-square ms-2"></i></a>
+                        <a href="https://www.youtube.com/watch?v=Kc-Ip8J3QXI" target="_blank"
+                            class="d-block appLink">使い方説明動画
+                            <div class="ytIcon"><img src="images/yt_logo_rgb_light.png"></div><i
+                            class="fa-solid fa-arrow-up-right-from-square ms-2"></i></a>
+
+
+                        <div class="row d-flex flex-row-reverse">
+                            <div class="col-lg-5">
+                                <div class="sunosukiImgCont d-flex align-items-end">
+                                    <div class="sunosukiImgTop me-2">
+                                        <img src="images/sunosuki_top.png">
+                                    </div>
+                                    <div class="sunosukiImgSession">
+                                        <img src="images/sunosuki_session.png">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="appText col-lg-7">
+                                <article>
+                                    <p class="articleTitle">機能</p>
+                                    <ul>
+                                        <li>・スキー場に行く計画を共有</li>
+                                        <li>・他ユーザが立てた計画に参加</li>
+                                        <li>・技名を登録し技を教えてくれるコーチを検索</li>
+                                    </ul>
+                                </article>
+
+                                <article>
+                                    <p class="articleTitle">技術</p>
+                                    <ul>
+                                        <li>言語：Java（サーブレット・JSP）</li>
+                                        <li>フロントエンド：Bootstrap, JavaScript</li>
+                                        <li>開発環境：Eclipse</li>
+                                        <li>データベース：MySQL</li>
+                                        <li>デプロイ環境：Azure（AzureAppService, AzureSQLServer）</li>
+                                    </ul>
+                                </article>
+                            </div>
+                            <div>
+                                <article>
+                                    <p class="articleTitle">作ったきっかけ</p>
+                                    <p>趣味のスノーボードの社会人サークルに所属しており、スキー場に行く計画を立てる際のリーダーの負担が重いと感じていたため、メンバー1人1人が滑りに行く計画を立てて参加者を募集できる仕組みを作りたいと考えました。
+                                    </p>
+                                </article>
+
+                                <article>
+                                    <p class="articleTitle">工夫・苦労</p>
+                                    <p>データベース接続に苦労しましたが、書籍やWEBサイトを参考にしたり専門学校の仲間に相談するなどして乗り越えました。</br>
+                                        データベースをAzureにデプロイする際にソースコードの大幅な改変が必要になりました。データベースの認証情報はソースコードの中に書かないなど、デプロイを見据えた実装の必要性を学びました。
+                                    </p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <div class="col-lg-11 mx-auto app">
+                        <h3>バブルゲーム</h3>
+                        <a href="https://bubblegame.azurewebsites.net" target="_blank" class="d-block">ご利用はこちらから<i
+                                class="fa-solid fa-arrow-up-right-from-square ms-2"></i></a>
+                        <p class="appLink small">パスワードは"bubble19"です</p>
+                        <div class="row">
+                            <div class="bubbleImgCont col-lg-5">
+                                <div class="bubbleImg">
+                                    <img src="images/bubble.png">
+                                </div>
+                            </div>
+
+                            <div class="appText col-lg-7">
+                                <article>
+                                    <p class="articleTitle">機能</p>
+                                    <p>AladdinX「スイカゲーム」と同じ機能です。同じ種類のフルーツをぶつけると次の大きさのフルーツに進化します。スイカを作って点数を稼ぐゲームです。</p>
+                                </article>
+
+                                <article>
+                                    <p class="articleTitle">技術</p>
+                                    <ul>
+                                        <li>言語：JavaScript</li>
+                                        <li>JavaScriptライブラリ：Matter.js</li>
+                                        <li>バックエンド：Java（サーブレット・JSP）</li>
+                                        <li>開発環境：Eclipse</li>
+                                        <li>データベース：MySQL</li>
+                                        <li>デプロイ環境：Azure（AzureAppService, AzureSQLServer）</li>
+                                    </ul>
+                                </article>
+
+                            </div>
+                        </div>
+                        <div>
+                            <article>
+                                <p class="articleTitle">作ったきっかけ</p>
+                                <p>Sunosukiの開発の中でJavaScriptの必要性を痛感し、流行りのゲームの再現を通してJavaScriptの学習をしようと思いました。
+                                </p>
+                            </article>
+
+                            <article>
+                                <p class="articleTitle">工夫・苦労</p>
+                                <p>本家のゲームの動きを再現するために各フルーツの大きさを試行錯誤しながら設定することが大変でした。<br>
+                                    ユーザごとの点数のデータをどのように保持するか悩んだ結果データベースを使用することにしました。
+                                </p>
+                            </article>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
