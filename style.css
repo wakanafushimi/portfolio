@@ -43,7 +43,10 @@ h1,h3{
     display:inline-block;
     margin-left:4px;
 }
-.ytIcon:hover,.instaIcon:hover,.githubIcon:hover{
+.instaIcon:hover,.githubIcon:hover{
+    opacity:0.5;
+}
+.ytLink:hover .ytIcon{
     opacity:0.5;
 }
 img{
